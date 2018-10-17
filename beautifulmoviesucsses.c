@@ -25,6 +25,7 @@ for(i=p;i<=q;i++)
         rem=num%10;
         rev=rem+rev*10;
         num=num/10;
+        num=num/10;
     }
     num=i;
     printf("%d\n",rev);
@@ -35,6 +36,7 @@ for(i=p;i<=q;i++)
     }
 }
 printf("%d\n",count);
+printf("the final anser id id %d",count);
 getch();
 }
 
