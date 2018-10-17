@@ -36,7 +36,7 @@ for(i=p;i<=q;i++)
     }
 }
 printf("%d\n",count);
-printf("the final anser id id %d",count);
+printf("the final answer id id %d",count);
 getch();
 }
 
