@@ -150,12 +150,12 @@ if __name__ == "__main__":
     divide.grid(row=5, column=3)
  
     equal = Button(gui, text=' = ', fg='black', bg='red',
-                   command=equalpress, height=1, width=7)
-    equal.grid(row=5, column=2)
+                   command=equalpress, height=2, width=8)
+    equal.grid(row=6, column=3)
  
     clear = Button(gui, text='Clear', fg='black', bg='red',
                    command=clear, height=1, width=7)
-    clear.grid(row=5, column='1')
+    clear.grid(row=7, column='1')
  
     # start the GUI
     gui.mainloop()
